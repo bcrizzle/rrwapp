@@ -15,7 +15,7 @@
 <h1>inventory</h1>
 <div style="margin-left: auto; margin-right: auto; margin-top: 10%; display: flex">
     <div class="card" style="width: 18rem; margin-right: 5%; margin-left: auto">
-        <img src="res/images/order-image.png" class="card-img-top" alt="Client Image">
+        <img src="res/images/create.png" class="card-img-top" alt="Client Image">
         <div class="card-body">
             <h5 class="card-title">Create Product</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
-        <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
+        <img src="res/images/delete.png" class="card-img-top" alt="Client Image">
         <div class="card-body">
             <h5 class="card-title">Delete Product</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
-        <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
+        <img src="res/images/cycle.jpg" class="card-img-top" alt="Client Image">
         <div class="card-body">
             <h5 class="card-title">Cycle Counts</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
-        <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
+        <img src="res/images/view.png" class="card-img-top" alt="Client Image">
         <div class="card-body">
             <h5 class="card-title">View Current On Hand</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
