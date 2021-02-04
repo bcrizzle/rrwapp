@@ -11,7 +11,7 @@
 <body style="background-color: whitesmoke;">
 <?php
 include('dbconnect.php');
-if (isset($_POST)){
+if (isset($_POST['prodname'])){
     $prodname = $_POST['prodname'];
     $prodcost = $_POST['prodcost'];
     $prodprice = $_POST['prodprice'];
@@ -36,9 +36,9 @@ if (isset($_POST)){
             <div class="mb-3">
                 <label for="prodname" class="form-label">Product Name</label>
                 <input type="text" class="form-control" id="prodname" name="prodname">
-                <label for="prodcost" class="form-label">Product Cost</label>
+                <label for="prodcost" class="form-label">Product Cost (Must Contain Decimals)</label>
                 <input type="number" class="form-control" id="prodcost" name="prodcost" step="any">
-                <label for="prodprice" class="form-label">Product Price</label>
+                <label for="prodprice" class="form-label">Product Price (Must Contain Decimals)</label>
                 <input type="number" class="form-control" id="prodprice" name="prodprice" step="any">
                 <label for="proddesc" class="form-label">Product Description</label>
                 <input type="text" class="form-control" id="proddesc" name="proddesc">
