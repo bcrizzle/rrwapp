@@ -1,6 +1,6 @@
 <html<html lang="en">
 <head>
-    <title>Rustik Reclamations MGMNT</title>
+    <title>Rustik Reclamations INVENTORY</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- BOOTSTRAP CSS -->
@@ -12,26 +12,41 @@
 <div style="width: 100%; text-align: center;">
     <img class="img-fluid " src="res/images/RRLogo.jpg" style="margin-left: auto;margin-right: auto; max-width: 10%;">
 </div>
-    <h1>inventory</h1>
+<h1>inventory</h1>
 <div style="margin-left: auto; margin-right: auto; margin-top: 10%; display: flex">
     <div class="card" style="width: 18rem; margin-right: 5%; margin-left: auto">
         <img src="res/images/order-image.png" class="card-img-top" alt="Client Image">
         <div class="card-body">
-            <h5 class="card-title">Manage Inventory</h5>
+            <h5 class="card-title">Create Product</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="invmanage.php" class="btn btn-primary">Manage Orders</a>
+            <a href="createprod.php" class="btn btn-primary">Create Product</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
         <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
         <div class="card-body">
-            <h5 class="card-title">Signage</h5>
+            <h5 class="card-title">Delete Product</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="signgen.php" class="btn btn-primary">Manage Clientele</a>
+            <a href="deleteprod.php" class="btn btn-primary">Delete Product</a>
         </div>
     </div>
-
+    <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
+        <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
+        <div class="card-body">
+            <h5 class="card-title">Cycle Counts</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="cycle.php" class="btn btn-primary">Cycle Counts</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;margin-right: auto; margin-left: 5%">
+        <img src="res/images/client-image.png" class="card-img-top" alt="Client Image">
+        <div class="card-body">
+            <h5 class="card-title">View Current On Hand</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="onhand.php" class="btn btn-primary">View Current On Hand</a>
+        </div>
+    </div>
+</div>
 </div>
 </body>
 </html>
-
