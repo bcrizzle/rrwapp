@@ -13,6 +13,30 @@
     <img class="img-fluid " src="res/images/RRLogo.jpg" style="margin-left: auto;margin-right: auto; max-width: 10%;">
 </div>
 <h1>Signage</h1>
+<form method="post" action="print-labels.php">
+<table class="table table-dark table-striped table-hover">
+<thead>
+<tr>
+    <th scope="col">Product Name</th>
+    <th scope="col">Labels Requested</th>
+</tr>
+</thead>
+<tbody>
+<?php
+include('dbconnect.php');
+$sql = "SELECT itemid, itemname FROM items";
+$result = $conn ->query($sql);
+while($row = mysqli_fetch_assoc($result)){
+    $itemname = $row['itemname'];
+    $itemid = $row['itemid'];
+    echo"<tr><td>$itemname</td>
+        <td>
+            <input type='number' name='$itemid'>
+        </td></tr>";
+}
+echo"<tr><td><input name='submit' type='submit' class='btn btn-danger'></td><td></td></tr></div></tbody></table></form>";
+?>
+
 </div>
 </body>
 </html>
